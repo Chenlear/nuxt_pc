@@ -1,0 +1,30 @@
+/* CSS Document */
+body{font-family:"微软雅黑","microsoft yahei",Arial, Helvetica, sans-serif;font-size:12px;margin:0;padding:0;background:#fff;color:#333}
+div{margin:0 auto;padding:0}
+ul,li,h1,h2,h3,h4,h5,p,dl,dd,dt,form{margin:0;padding:0;font-weight:normal}
+li{list-style:none}
+img{border:0}
+a{color:#444;text-decoration:none;cursor: pointer}
+/*a:hover{color:#fb8526}*/
+a:hover{color: #3b8de3!important;}
+textarea{resize:none;background:none}
+input,textarea,a,button{outline:none;}
+input,textarea,select{font-family:"微软雅黑","microsoft yahei",Arial, Helvetica, sans-serif;padding:0}
+input:-moz-placeholder,textarea:-moz-placeholder{color:#ccc}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ccc}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#ccc}
+.content_warp{width: 1200px}
+.fl{float: left}
+.fr{float: right}
+.clearfix:after{content:'\0020';display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*zoom:1}
+.pageCenter{text-align: center;margin-top: 20px}
+.okSuccess{background: #7cbcff;color: #fff!important;transition: all 1s}
+img{object-fit:cover}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .5s;
+}
+.page-enter, .page-leave-active {
+  opacity: 0;
+}
